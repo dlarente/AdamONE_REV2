@@ -1,0 +1,60 @@
+16u2
+
+BODLEVEL = 3V0
+HWBE = [X]
+DWEN = [ ]
+RSTDISBL = [ ]
+SPIEN = [X]
+WDTON = [ ]
+EESAVE = [ ]
+BOOTSZ = 2048W_1800
+BOOTRST = [ ]
+CKDIV8 = [ ]
+CKOUT = [ ]
+SUT_CKSEL = EXTXOSC_8MHZ_XX_16KCK_4MS1
+
+EXTENDED = 0xF4 (valid)
+HIGH = 0xD9 (valid)
+LOW = 0xEF (valid)
+
+
+
+328p
+
+BODLEVEL = 2V7
+RSTDISBL = [ ]
+DWEN = [ ]
+SPIEN = [X]
+WDTON = [ ]
+EESAVE = [X]
+BOOTSZ = 256W_3F00
+BOOTRST = [X]
+CKDIV8 = [ ]
+CKOUT = [ ]
+SUT_CKSEL = EXTXOSC_8MHZ_XX_16KCK_14CK_65MS
+
+EXTENDED = 0xFD (valid)
+HIGH = 0xD6 (valid)
+LOW = 0xFF (valid)
+
+2560
+
+BODLEVEL = 2V7
+OCDEN = [ ]
+JTAGEN = [ ]
+SPIEN = [X]
+WDTON = [ ]
+EESAVE = [ ]
+BOOTSZ = 4096W_1F000
+BOOTRST = [X]
+CKDIV8 = [ ]
+CKOUT = [ ]
+SUT_CKSEL = EXTXOSC_8MHZ_XX_16KCK_65MS
+
+EXTENDED = 0xFD (valid)
+HIGH = 0xD8 (valid)
+LOW = 0xFF (valid)
+
+
+
+
